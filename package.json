@@ -1,0 +1,13 @@
+{
+  "name": "napi-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^7.1.0"
+  }
+}
